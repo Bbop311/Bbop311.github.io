@@ -2,9 +2,15 @@
     box-sizing: border-box;
 }
 
+
+header {
+    position : fixed;
+    height: 100%;
+    margin-bottom: 0;
+}
+
 #nav_bar {
-    
-    height : 1000px; 
+    height: 100%;
 }
 
 a {
