@@ -2,26 +2,35 @@
     box-sizing: border-box;
 }
 
-
-header {
-    position : fixed;
-    height: 100%;
-    margin-bottom: 0;
-}
-
-#nav_bar {
-    height: 100%;
+body {
+    height: 5000px;
 }
 
 a {
     text-decoration: none;
-    color: grey;
+    color: gray;
 }
 
 section {
     font-size: 1.5em;
 }
 
-#presentation_sentence {
-    
+h2 {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+h2::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 4em;
+    bottom: -6px;
+    height: 3px;
+    background-color: aqua;
+}
+
+#main {
+    width : 80%;
+    margin : auto;
 }
