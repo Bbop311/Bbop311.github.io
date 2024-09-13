@@ -1,10 +1,6 @@
 * {
     box-sizing: border-box;
-}
-
-body {
-    height: 5000px;
-}
+}   
 
 a {
     text-decoration: none;
@@ -30,7 +26,24 @@ h2::after {
     background-color: aqua;
 }
 
-section div{
-    width : 80%;
-    margin : 0 auto;
+.width-80 {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.vertical-line {
+    position: relative;
+    padding-left: 20px;
+}
+
+.vertical-line::before {
+    content: '';
+    display: inline-block;
+    width: 2px;
+    height: 100%;
+    background-color: aqua;
+    margin-right: 15px;
+    position: absolute;
+    left: 0;
+    top: 0;
 }
