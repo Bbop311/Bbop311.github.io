@@ -2,9 +2,9 @@
     box-sizing: border-box;
 }   
 
-a {
+#navbar a {
     text-decoration: none;
-    color: gray;
+    color: white;
 }
 
 section {
@@ -16,7 +16,7 @@ h2 {
     margin-bottom: 20px;
 }
 
-h2::after {
+.underline::after {
     content: "";
     position: absolute;
     left: 0;
@@ -39,7 +39,7 @@ h2::after {
 .vertical-line::before {
     content: '';
     display: inline-block;
-    width: 2px;
+    width: 4px;
     height: 100%;
     background-color: aqua;
     margin-right: 15px;
