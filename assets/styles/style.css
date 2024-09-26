@@ -47,3 +47,8 @@ h2 {
     left: 0;
     top: 0;
 }
+
+#home {
+    background-image: url('/assets/images/computer.jpg');
+    background-size: cover;
+}
