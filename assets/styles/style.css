@@ -6,7 +6,7 @@ a {
     text-decoration: none;
 }
 
-#navbar li a{
+#navbar li a {
     text-decoration: none;
     color: white;
     height: 3em;
@@ -20,7 +20,7 @@ a {
     transform: scale(1.1);
 }
 
-#navbar ul{
+#navbar ul {
     list-style-type: none;
 }
 
@@ -68,4 +68,13 @@ h2 {
 #home {
     background-image: url('/assets/images/computer.jpg');
     background-size: cover;
+}
+
+#contact-list li {
+    list-style-type: none;
+    display: block;
+}
+
+#contact-list a {
+    text-decoration: none;
 }
