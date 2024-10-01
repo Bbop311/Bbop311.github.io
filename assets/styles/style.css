@@ -1,14 +1,27 @@
 * {
     box-sizing: border-box;
-}   
-
-a {
-    text-decoration : none;
 }
 
-#navbar a {
+a {
+    text-decoration: none;
+}
+
+#navbar li a{
     text-decoration: none;
     color: white;
+    height: 3em;
+    display: block;
+    transition: transform 0.2s ease-in-out;
+}
+
+
+#navbar li a:hover {
+    background-color: grey;
+    transform: scale(1.1);
+}
+
+#navbar ul{
+    list-style-type: none;
 }
 
 section {
